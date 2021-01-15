@@ -44,4 +44,14 @@ services:
 
 Note that the `hostname` is intended to persist the data into a volume of the container, in the case above, `rabbitmqdata`. If you don't need to persist the data it's just to remove the line.
 
+## Plugins Installed
+
+Below are the list of the additional plugins installed in this image.
+
+### RabbitMQ Message Deduplication Plugin
+URL: https://github.com/noxdafox/rabbitmq-message-deduplication
+
+A plugin for filtering duplicate messages. Messages can be deduplicated when published into an exchange or enqueued to a queue.
+
+
 MagedIn Team.
